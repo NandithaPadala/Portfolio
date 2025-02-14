@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+.nav-link:hover {
+  color: #ff69b4 !important;
+}
+
+
+/* Custom gradient border */
+.border-gradient {
+  height: 1px;
+  background: linear-gradient(to right, transparent, violet, transparent);
+}
+
+/* Hover effect for links */
+.hover-success:hover {
+  color: #16f2b3 !important;
+}
+
+html, body { height: 100%;}
+body { font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: #0d0d2b;
+  color: white;}
+
+
+  .bg-custom {
+    background-color: #08022c;
+  }

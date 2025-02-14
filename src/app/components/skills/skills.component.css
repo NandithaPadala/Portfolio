@@ -1,0 +1,26 @@
+/* Custom gradient border */
+.border-gradient {
+  height: 1px;
+  background: linear-gradient(to right, transparent, violet, transparent);
+}
+
+.bg-custom{
+  background-color: #08022c;
+}
+
+
+/* Blur effect for the background circle */
+/* .blur {
+  filter: blur(10px);
+} */
+
+/* Hover effect for scaling cards */
+/* .hover-scale:hover {
+  transform: scale(1.15);
+  transition: transform 0.5s ease-in-out;
+}
+
+.skill-img {
+  width: 50px;
+  height: 50px;
+} */
