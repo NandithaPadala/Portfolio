@@ -1,0 +1,9 @@
+.bg-custom{
+  background-color: #08022c;
+}
+
+
+.border-gradient {
+  height: 1px;
+  background: linear-gradient(to right, transparent, violet, transparent);
+}
