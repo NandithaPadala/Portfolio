@@ -25,9 +25,11 @@ body { font-family: Roboto, "Helvetica Neue", sans-serif;
 
 
   .bg-custom {
-    background-color: #040117;
+    background-color: #0d0d2b;
+    background-image: 'assets/icons/blur-23.svg';
+    /* background-color: #040117; */
   }
 
-html {
+  html {
   scroll-behavior: smooth;
 }
