@@ -27,3 +27,7 @@ body { font-family: Roboto, "Helvetica Neue", sans-serif;
   .bg-custom {
     background-color: #040117;
   }
+
+html {
+  scroll-behavior: smooth;
+}

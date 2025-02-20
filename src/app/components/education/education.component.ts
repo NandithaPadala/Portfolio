@@ -22,7 +22,7 @@ export class EducationComponent {
       {
         year : '2018-2019',
         degree : 'SECONDARY SCHOOL',
-        description : 'St .Josephs High School',
+        description : 'St.Josephs High School',
       }
     ];
 }
