@@ -1,52 +1,91 @@
-
 <div id="education" class="position-relative border-top my-5 py-5 border-dark">
-  <img src="assets/icons/section.svg" alt="Hero" class="position-absolute top-0 w-100" style="z-index: -1;">
+  <img
+    src="assets/icons/section.svg"
+    alt="Hero"
+    class="position-absolute top-0 w-100"
+    style="z-index: -1"
+  />
 
   <div class="d-flex justify-content-center">
-      <div class="w-75">
-          <div class="w-100 bg-gradient" style="height: 1px; background: linear-gradient(to right, transparent, violet, transparent);"></div>
-      </div>
+    <div class="w-75">
+      <div
+        class="w-100 bg-gradient"
+        style="
+          height: 1px;
+          background: linear-gradient(
+            to right,
+            transparent,
+            violet,
+            transparent
+          );
+        "
+      ></div>
+    </div>
   </div>
 
   <div class="d-flex justify-content-center my-4 py-3">
-      <div class="d-flex align-items-center">
-          <span class="d-inline-block w-25" style="height: 2px; background-color: #1a1443;"></span>
-          <span class="bg-custom text-white py-2 px-4 text-uppercase rounded">Education</span>
-          <span class="d-inline-block w-25" style="height: 2px; background-color: #1a1443;"></span>
-      </div>
+    <div class="d-flex align-items-center">
+      <span
+        class="d-inline-block w-25"
+        style="height: 2px; background-color: #1a1443"
+      ></span>
+      <span class="bg-custom text-white py-2 px-4 text-uppercase rounded"
+        >Education</span
+      >
+      <span
+        class="d-inline-block w-25"
+        style="height: 2px; background-color: #1a1443"
+      ></span>
+    </div>
   </div>
 
   <div class="py-4">
-      <div class="row g-4">
-          <div class="col-lg-6 d-flex justify-content-center align-items-start">
-              <div class="w-75">
-                  <!-- Animation Lottie Placeholder -->
-                  <img src="/animation-placeholder.svg" class="img-fluid" alt="Animation">
-              </div>
-          </div>
-
-          <div class="col-lg-6">
-              <div class="d-flex flex-column gap-3">
-                  <div  *ngFor="let edu of educationData" class="card bg-custom text-white p-3 position-relative border-white" style="border-radius: 10px;">
-                      <img src="assets/icons/blur-23.svg" alt="Background" class="position-absolute bottom-0 w-100 opacity-75">
-                      <div class="text-center">
-                          <p class="small text-success">{{edu.year}}</p>
-                      </div>
-                      <div class="d-flex align-items-center gap-3 p-3">
-                          <div class="text-violet" style="font-size: 36px;">
-                              <i class="bi bi-mortarboard"></i>
-                          </div>
-                          <div>
-                              <p class="h6 mb-1 text-uppercase">{{edu.degree}}</p>
-                              <p class="small">{{edu.description}}</p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
+    <div class="row g-4">
+      <div class="col-lg-6 d-flex justify-content-center align-items-center">
+        <div class="w-75 image-background">
+          <!-- Animation Lottie Placeholder -->
+          <img
+            src="/assets/images/animation1.jpeg"
+            class="img-fluid"
+            style="width: 75%"
+            alt="Animation"
+          />
+        </div>
       </div>
+
+      <div class="col-lg-6">
+        <div class="d-flex flex-column gap-3">
+          <div
+            *ngFor="let edu of educationData"
+            class="card bg-custom text-white p-3 position-relative border-white"
+            style="border-radius: 10px"
+          >
+            <img
+              src="assets/icons/blur-23.svg"
+              alt="Background"
+              class="position-absolute bottom-0 w-100 opacity-75"
+            />
+            <div class="text-center">
+              <p class="small text-success">{{ edu.year }}</p>
+            </div>
+            <div class="d-flex align-items-center gap-3 p-3">
+              <div class="text-violet" style="font-size: 36px">
+                <i class="bi bi-mortarboard"></i>
+              </div>
+              <div>
+                <p class="h6 mb-1 text-uppercase">{{ edu.degree }}</p>
+                <p class="small">{{ edu.description }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
 <!-- Include Bootstrap Icons for icons -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+/>

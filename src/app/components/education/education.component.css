@@ -7,3 +7,6 @@
   height: 1px;
   background: linear-gradient(to right, transparent, violet, transparent);
 }
+.image-background {
+  display: inline-block;
+}
